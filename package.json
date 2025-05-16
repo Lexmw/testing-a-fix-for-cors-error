@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-spinners",
+  "version": "1.0.0",
+  "description": "This project shows how to use a Bootstrap spinner while waiting for an API request to complete. It fetches a random dog image from the [Dog CEO API](https://dog.ceo/dog-api/) and displays it inside a Bootstrap card.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
